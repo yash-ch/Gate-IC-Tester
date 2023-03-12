@@ -328,7 +328,7 @@ void loop()
   {
     // segmentSelected = sevenSegmentDisplay(resistorValue);
 
-    if (selectedOption == 0)
+    if (selectedOption == -1)
     {
       selectedOption = menu(resistorValue);
     }
